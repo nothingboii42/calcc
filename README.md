@@ -3,7 +3,7 @@
 
 calcc - a calculator compiler that translates math into assembly
 
-Right now, there are some stuff that are broken, division is broken, and also it can't subtract negative numbers.
+Right now, there are some stuff that are broken, division is broken, and also it can't subtract into negative numbers.
 
 ## How to use it
 First, create a `.txt` file
@@ -21,3 +21,7 @@ inside of that math.asm file is the NASM x86_64 assembly instructions for 5 + 8
 run `make` to build and run `make install` with root to install
 
 it will install it to `/usr/bin` so if you want to install it to `/usr/local/bin` you may need to modify the makefile.
+
+## Known Issues
+- Division is not working
+- You can't subtract into negative numbers
