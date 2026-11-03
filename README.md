@@ -25,3 +25,4 @@ it will install it to `/usr/bin` so if you want to install it to `/usr/local/bin
 ## Known Issues
 - Division is not working
 - You can't subtract into negative numbers
+- And some stuff hasn't been tested yet
